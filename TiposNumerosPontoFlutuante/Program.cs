@@ -16,7 +16,7 @@ double valorD1 = 12.4;
 System.Double valorD2 = 12.4;
 
 
-// float com alias => 'float' => 'palavra-chave/tipo C# ':
+// float com alias => 'float' => 'palavra-chave/tipo C#':
 float valorF1 = 12.4F;
 // float com Tipo .NET => 'System.Single'
 System.Single valorF2 = 12.4f;
