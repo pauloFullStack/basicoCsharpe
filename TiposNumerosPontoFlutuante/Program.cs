@@ -10,7 +10,7 @@ Console.WriteLine("Hello, World!");
 
 // Representações:
 
-// double com alias => 'double' => 'palavra-chave/tipo C#':
+// double com alias => 'double' => 'palavra-chave/tipo C# ':
 double valorD1 = 12.4;
 // Double com Tipo .NET => 'System.Double'
 System.Double valorD2 = 12.4;
