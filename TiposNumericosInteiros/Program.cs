@@ -4,17 +4,36 @@ Console.WriteLine("Declarando variáveis numéricas");
 Console.WriteLine();
 
 // Declarando variáveis
-byte valor1 = 255;
-sbyte valor2 = -127;
-int valor3 = -2147483647;
-valor3 = 1000;
-uint valor4 = 2147483647;
-long valor5 = -21474836489;
+byte valorB1 = 255;
+Console.WriteLine(valorB1);
+System.Byte valorB2 = 200;
+Console.WriteLine(valorB2);
 
-Console.WriteLine(valor1);
-Console.WriteLine(valor2);
-Console.WriteLine(valor3);
-Console.WriteLine(valor4);
-Console.WriteLine(valor5);
+sbyte valorSB1 = -127;
+Console.WriteLine(valorSB1);
+System.SByte valorSB2 = -127;
+Console.WriteLine(valorSB2);
+
+
+int valorI1 = -2147483647;
+Console.WriteLine(valorI1);
+System.Int32 valorI2 = -2147483647;
+Console.WriteLine(valorI2);
+
+valorI2 = 1000;
+
+const int naoMudaValor = 25;
+Console.WriteLine("Constante => "+ naoMudaValor);
+
+uint valoUI1 = 2147483647;
+Console.WriteLine(valoUI1);
+System.UInt32 valorUI2 = 2147483647;
+Console.WriteLine(valorUI2);
+
+long valorL1 = -21474836489;
+Console.WriteLine(valorL1);
+System.Int64 valorL2 = -21474836489;
+Console.WriteLine(valorL2);
+
 
 Console.ReadLine();
