@@ -24,5 +24,5 @@ System.Single valorF2 = 12.4f;
 
 // decimal com alias => 'decimal' => 'palavra-chave/tipo C#':
 decimal valorDC1 = 12.4M;
-// decimal com Tipo .NET => 'System.Single Teste'
+// decimal com Tipo .NET => 'System.Single'
 System.Decimal valorDC2 = 12.4m;
