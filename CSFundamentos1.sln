@@ -19,13 +19,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NomenclaturaConvencoes", "N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercioFase1", "ExercioFase1\ExercioFase1.csproj", "{A241806C-5657-4CFF-AB51-B15A0896C657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatarASaidaDeDados", "FormatarASaidaDeDados\FormatarASaidaDeDados.csproj", "{9E514902-D20C-41A7-B143-82A33DCA6724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormatarASaidaDeDados", "FormatarASaidaDeDados\FormatarASaidaDeDados.csproj", "{9E514902-D20C-41A7-B143-82A33DCA6724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenciasEscapes", "SequenciasEscapes\SequenciasEscapes.csproj", "{9D9BBA16-5C6D-40E8-813A-D9543460874B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenciasEscapes", "SequenciasEscapes\SequenciasEscapes.csproj", "{9D9BBA16-5C6D-40E8-813A-D9543460874B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoDeTipos1", "ConversaoDeTipos1\ConversaoDeTipos1.csproj", "{BF8426CE-E8AD-493C-8A1E-D3DB0C4B64E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversaoDeTipos1", "ConversaoDeTipos1\ConversaoDeTipos1.csproj", "{BF8426CE-E8AD-493C-8A1E-D3DB0C4B64E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoDeTipos2", "ConversaoDeTipos2\ConversaoDeTipos2.csproj", "{63BE7BE7-0850-4A7D-9567-D40F1958ABE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversaoDeTipos2", "ConversaoDeTipos2\ConversaoDeTipos2.csproj", "{63BE7BE7-0850-4A7D-9567-D40F1958ABE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntradaDeDados", "EntradaDeDados\EntradaDeDados.csproj", "{D19E6B56-FA1E-4D5F-BB39-D9B2368EB3B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAritmeticosEClasse", "OperadoresAritmeticosEClasse\OperadoresAritmeticosEClasse.csproj", "{36D721C7-8318-4017-898E-AB1332E642DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferenciaDeTipos", "InferenciaDeTipos\InferenciaDeTipos.csproj", "{DBB9E9E3-0F2E-41F4-A075-A9CF793A960D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{63BE7BE7-0850-4A7D-9567-D40F1958ABE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63BE7BE7-0850-4A7D-9567-D40F1958ABE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63BE7BE7-0850-4A7D-9567-D40F1958ABE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19E6B56-FA1E-4D5F-BB39-D9B2368EB3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19E6B56-FA1E-4D5F-BB39-D9B2368EB3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19E6B56-FA1E-4D5F-BB39-D9B2368EB3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19E6B56-FA1E-4D5F-BB39-D9B2368EB3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D721C7-8318-4017-898E-AB1332E642DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D721C7-8318-4017-898E-AB1332E642DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D721C7-8318-4017-898E-AB1332E642DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D721C7-8318-4017-898E-AB1332E642DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB9E9E3-0F2E-41F4-A075-A9CF793A960D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB9E9E3-0F2E-41F4-A075-A9CF793A960D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB9E9E3-0F2E-41F4-A075-A9CF793A960D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB9E9E3-0F2E-41F4-A075-A9CF793A960D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
