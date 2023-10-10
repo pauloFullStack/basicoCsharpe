@@ -69,17 +69,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysClasse", "ArraysClass
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysMultidimensionais1", "ArraysMultidimensionais1\ArraysMultidimensionais1.csproj", "{CF9FED31-3712-4801-899F-AB9B04358383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList1", "ArrayList1\ArrayList1.csproj", "{4C18E166-B84F-4AB6-B250-BCA02F8ECFF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayList1", "ArrayList1\ArrayList1.csproj", "{4C18E166-B84F-4AB6-B250-BCA02F8ECFF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList2", "ArrayList2\ArrayList2.csproj", "{BD9F9D65-9A3A-4315-8F5A-3A3CF53F480B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayList2", "ArrayList2\ArrayList2.csproj", "{BD9F9D65-9A3A-4315-8F5A-3A3CF53F480B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList3", "ArrayList3\ArrayList3.csproj", "{7789EEB6-9FBE-486F-94B2-C0F846A385B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayList3", "ArrayList3\ArrayList3.csproj", "{7789EEB6-9FBE-486F-94B2-C0F846A385B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{41B63170-C2DB-44F1-8348-FF90C04CB76B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List", "List\List.csproj", "{41B63170-C2DB-44F1-8348-FF90C04CB76B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListMetodosFind", "ListMetodosFind\ListMetodosFind.csproj", "{3E2E9D95-A69E-4DE4-9DC0-4F2A14D3C7E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListMetodosFind", "ListMetodosFind\ListMetodosFind.csproj", "{3E2E9D95-A69E-4DE4-9DC0-4F2A14D3C7E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListMetodosFindExpressaoLambda", "ListMetodosFindExpressaoLambda\ListMetodosFindExpressaoLambda.csproj", "{B4C99143-A6C6-4CD0-AD9A-6D9744163D0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListMetodosFindExpressaoLambda", "ListMetodosFindExpressaoLambda\ListMetodosFindExpressaoLambda.csproj", "{B4C99143-A6C6-4CD0-AD9A-6D9744163D0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListIEnumerable", "ListIEnumerable\ListIEnumerable.csproj", "{B5A27659-D111-4896-A9FC-FA53BF2D7319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexadores", "Indexadores\Indexadores.csproj", "{0875B674-2A50-479F-B269-7680AD736320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random", "Random\Random.csproj", "{2981B56A-EC09-4900-A820-6E1127252AD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +249,18 @@ Global
 		{B4C99143-A6C6-4CD0-AD9A-6D9744163D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4C99143-A6C6-4CD0-AD9A-6D9744163D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4C99143-A6C6-4CD0-AD9A-6D9744163D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A27659-D111-4896-A9FC-FA53BF2D7319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A27659-D111-4896-A9FC-FA53BF2D7319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A27659-D111-4896-A9FC-FA53BF2D7319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A27659-D111-4896-A9FC-FA53BF2D7319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0875B674-2A50-479F-B269-7680AD736320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0875B674-2A50-479F-B269-7680AD736320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0875B674-2A50-479F-B269-7680AD736320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0875B674-2A50-479F-B269-7680AD736320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2981B56A-EC09-4900-A820-6E1127252AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2981B56A-EC09-4900-A820-6E1127252AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2981B56A-EC09-4900-A820-6E1127252AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2981B56A-EC09-4900-A820-6E1127252AD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
