@@ -21,7 +21,14 @@ namespace HerancaExercicio
             PrintsTela($"Saldo atual = {Saldo}");
             Menu();
         }
-        protected override void Depositar() => PrintsTela("Depositar Conta Corrente");
+        protected override void Depositar() 
+        {
+            PrintsTela("Digite o valor do Deposito - Conta Corrente");
+            double valorDeposito = Convert.ToDouble(Console.ReadLine());
+            Saldo += valorDeposito + (valorDeposito * 0.5);
+            PrintsTela($"Saldo atual = {Saldo}");
+            Menu();
+        }
 
     }
 }
