@@ -30,4 +30,129 @@
 /* Herança Simples 
  * 
  * É o tipo de herança em que há uma classe base e uma classe derivada, Ex:
+ * 
+ * # Class Base
+ * public class Conta
+ * {
+ *      public int Numero { get; set; }
+ *      public double Saldo { get; private set; }
+ * }
+ * 
+ * # Class Derivada
+ * public class ContaPoupanca : Conta
+ * {
+ *      public int JurosMensais {  get; set; }
+ * 
+ * }
+ * 
  */
+
+
+/* Herança Hierárquica 
+ * 
+ * Este é o tipo de herança em que existem várias classes derivadas de uma classe base.
+ * 
+ * # Classe Base
+ * public class A
+ * {
+ *     public void Exibir()
+ *     {
+ *        Console.WriteLine("Método da classe A");
+ *     }
+ * }
+ * 
+ * # A Classe B deriva da classe A
+ * public class B : A
+ * {
+ *     public void Mostrar()
+ *     {
+ *        Console.WriteLine("Método da classe B");
+ *     }
+ * }
+ * 
+ * # A Classe C é derivada da classe A
+ * public class C : A
+ * {
+ *     public void Apresentar()
+ *     {
+ *        Console.WriteLine("Método da classe C");
+ *     }
+ * }
+ */
+
+
+/* Herança Multinível 
+ * 
+ * Ocorre quando uma classe é derivada de outra classe derivada .
+ * 
+ * # Classe Base
+ * public class A
+ * {
+ *     public void Exibir()
+ *     {
+ *        Console.WriteLine("Método da classe A");
+ *     }
+ * }
+ * 
+ * # A Classe B deriva da classe A
+ * public class B : A
+ * {
+ *     public void Mostrar()
+ *     {
+ *        Console.WriteLine("Método da classe B");
+ *     }
+ * }
+ * 
+ * # A Classe C é derivada da classe B
+ * public class C : B
+ * {
+ *     public void Apresentar()
+ *     {
+ *        Console.WriteLine("Método da classe C");
+ *     }
+ * }
+ */
+
+
+/* Herança Múltipla(implementação) 
+ * 
+ * Ocorre quando temos uma classe base e uma classe derivada que implementa uma ou mais interfaces.
+ * 
+ * # Classe Base
+ * public class Forma
+ * {
+ *     public void SetLado(int s)
+ *     {
+ *        lado = s;
+ *     }
+ *     protected int lado;
+ * }
+ * 
+ * 
+ * # Interface
+ * interface ICusto
+ * {
+ *     int GetCusto(int area);
+ * }
+ * 
+ * 
+ * # Classe Quadrado deriva da classe Forma, e deriva da interface ICusto, isso seria a herança multipla 
+ * # So interfaces podem ser herdadas por varias outras interfaces, classes não é herança multipla
+ * 
+ * public class Quadrado : Forma, ICusto
+ * {
+ *     public void GetArea()
+ *     {
+ *        return(lado * lado);
+ *     }
+ *     public int GetCusto(int area)
+ *     {
+ *        return area * 10;
+ *     }
+ * }
+ */
+
+
+
+
+
