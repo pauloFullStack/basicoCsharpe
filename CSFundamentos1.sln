@@ -87,15 +87,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexadores", "Indexadores\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random", "Random\Random.csproj", "{2981B56A-EC09-4900-A820-6E1127252AD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaConceitoESintaxe", "HerancaConceitoESintaxe\HerancaConceitoESintaxe.csproj", "{42FD01C7-2B53-48D8-8897-E08803BDFF27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerancaConceitoESintaxe", "HerancaConceitoESintaxe\HerancaConceitoESintaxe.csproj", "{42FD01C7-2B53-48D8-8897-E08803BDFF27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaComportamentos", "HerancaComportamentos\HerancaComportamentos.csproj", "{C9080BF9-4E6A-482D-81C7-4447465AF62E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerancaComportamentos", "HerancaComportamentos\HerancaComportamentos.csproj", "{C9080BF9-4E6A-482D-81C7-4447465AF62E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaConstrutores", "HerancaConstrutores\HerancaConstrutores.csproj", "{24E566C5-81D8-4583-B1AB-EEBA69F6FF13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerancaConstrutores", "HerancaConstrutores\HerancaConstrutores.csproj", "{24E566C5-81D8-4583-B1AB-EEBA69F6FF13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaEObject", "HerancaEObject\HerancaEObject.csproj", "{68F70547-5C1A-4518-9560-9E071023E7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerancaEObject", "HerancaEObject\HerancaEObject.csproj", "{68F70547-5C1A-4518-9560-9E071023E7C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaENew", "HerancaENew\HerancaENew.csproj", "{E9D3E006-6F4F-4C02-974C-ABEA9E5CB919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerancaENew", "HerancaENew\HerancaENew.csproj", "{E9D3E006-6F4F-4C02-974C-ABEA9E5CB919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaVirtualEOverride", "HerancaVirtualEOverride\HerancaVirtualEOverride.csproj", "{F0B2E973-C97F-496E-90AC-B1713B530320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaSealed", "HerancaSealed\HerancaSealed.csproj", "{B8E552EE-203D-4D4B-AFF5-AF53261E531A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaExercicio", "HerancaExercicio\HerancaExercicio.csproj", "{0096CE3F-9195-4F1E-8BC2-795E24F4111D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +297,18 @@ Global
 		{E9D3E006-6F4F-4C02-974C-ABEA9E5CB919}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9D3E006-6F4F-4C02-974C-ABEA9E5CB919}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9D3E006-6F4F-4C02-974C-ABEA9E5CB919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B2E973-C97F-496E-90AC-B1713B530320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B2E973-C97F-496E-90AC-B1713B530320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B2E973-C97F-496E-90AC-B1713B530320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B2E973-C97F-496E-90AC-B1713B530320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E552EE-203D-4D4B-AFF5-AF53261E531A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E552EE-203D-4D4B-AFF5-AF53261E531A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E552EE-203D-4D4B-AFF5-AF53261E531A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E552EE-203D-4D4B-AFF5-AF53261E531A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0096CE3F-9195-4F1E-8BC2-795E24F4111D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0096CE3F-9195-4F1E-8BC2-795E24F4111D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0096CE3F-9195-4F1E-8BC2-795E24F4111D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0096CE3F-9195-4F1E-8BC2-795E24F4111D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
