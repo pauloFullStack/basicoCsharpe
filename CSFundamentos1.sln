@@ -175,11 +175,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodosDeExtensao", "Extens
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "LINQ1\LINQ.csproj", "{6A5F7800-2CC7-44E9-8DCC-3363D6CFB8C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQConsultas", "LINQConsultas\LINQConsultas.csproj", "{3B02AD04-773F-4344-8F2C-7C260228D3F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQConsultas", "LINQConsultas\LINQConsultas.csproj", "{3B02AD04-773F-4344-8F2C-7C260228D3F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQConsultas2", "LINQConsultas2\LINQConsultas2.csproj", "{1CFCA2FC-CB21-4CB9-800D-62C19865035C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQConsultas2", "LINQConsultas2\LINQConsultas2.csproj", "{1CFCA2FC-CB21-4CB9-800D-62C19865035C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQConsultas3", "LINQConsultas3\LINQConsultas3.csproj", "{DD768B85-054A-439B-B804-AC7FB75A3774}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQConsultas3", "LINQConsultas3\LINQConsultas3.csproj", "{DD768B85-054A-439B-B804-AC7FB75A3774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassFile", "ClassFile\ClassFile.csproj", "{A9C59DA1-E85C-48ED-A018-9DA8AE660CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassFileInfo", "ClassFileInfo\ClassFileInfo.csproj", "{217A36C0-F5AC-4537-8856-6C43AB017515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramacaoAssicronaEParalela", "ProgramacaoAssicronaEParalela\ProgramacaoAssicronaEParalela.csproj", "{2926C995-17E5-485B-8AFC-4172DC99910C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramacaoAssincronaTaskTaskT", "ProgramacaoAssincronaTaskTaskT\ProgramacaoAssincronaTaskTaskT.csproj", "{322F1050-23C2-4CA6-9C8D-90BFDB09B57C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -543,6 +551,22 @@ Global
 		{DD768B85-054A-439B-B804-AC7FB75A3774}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD768B85-054A-439B-B804-AC7FB75A3774}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD768B85-054A-439B-B804-AC7FB75A3774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C59DA1-E85C-48ED-A018-9DA8AE660CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C59DA1-E85C-48ED-A018-9DA8AE660CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C59DA1-E85C-48ED-A018-9DA8AE660CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C59DA1-E85C-48ED-A018-9DA8AE660CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217A36C0-F5AC-4537-8856-6C43AB017515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217A36C0-F5AC-4537-8856-6C43AB017515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217A36C0-F5AC-4537-8856-6C43AB017515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217A36C0-F5AC-4537-8856-6C43AB017515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2926C995-17E5-485B-8AFC-4172DC99910C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2926C995-17E5-485B-8AFC-4172DC99910C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2926C995-17E5-485B-8AFC-4172DC99910C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2926C995-17E5-485B-8AFC-4172DC99910C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322F1050-23C2-4CA6-9C8D-90BFDB09B57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322F1050-23C2-4CA6-9C8D-90BFDB09B57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322F1050-23C2-4CA6-9C8D-90BFDB09B57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322F1050-23C2-4CA6-9C8D-90BFDB09B57C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
