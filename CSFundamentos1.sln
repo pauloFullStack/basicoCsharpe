@@ -205,11 +205,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TratamentoExcecaoAsync", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TratamentoDeMultiplaExcecaoAsync", "TratamentoDeMultiplaExcecaoAsync\TratamentoDeMultiplaExcecaoAsync.csproj", "{72F18CBB-3803-447D-B684-9EB557B655A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioProgramacaoAssincrona", "ExercicioProgramacaoAssincrona\ExercicioProgramacaoAssincrona.csproj", "{31AE242E-8721-4E83-89AA-CF2BF5E198E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioProgramacaoAssincrona", "ExercicioProgramacaoAssincrona\ExercicioProgramacaoAssincrona.csproj", "{31AE242E-8721-4E83-89AA-CF2BF5E198E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamsAssincronos", "StreamsAssincronos\StreamsAssincronos.csproj", "{157053E6-DE27-4077-90CB-2D853D4F8556}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamsAssincronos", "StreamsAssincronos\StreamsAssincronos.csproj", "{157053E6-DE27-4077-90CB-2D853D4F8556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlandoThreadsComSemaforos", "ControlandoThreadsComSemaforos\ControlandoThreadsComSemaforos.csproj", "{0E68E5CF-40EC-480E-B1AB-F7220AC662E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlandoThreadsComSemaforos", "ControlandoThreadsComSemaforos\ControlandoThreadsComSemaforos.csproj", "{0E68E5CF-40EC-480E-B1AB-F7220AC662E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQMetodos", "LINQMetodos\LINQMetodos.csproj", "{9E4489C4-0C10-405A-8A04-164A6AD2E572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQOperadoresDeProjecao", "LINQOperadoresDeProjecao\LINQOperadoresDeProjecao.csproj", "{5DD9DFCC-01BA-4D75-B69A-477B2F5097E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQOperacoesComConjuntos1", "LINQOperacoesComConjuntos1\LINQOperacoesComConjuntos1.csproj", "{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -633,6 +639,18 @@ Global
 		{0E68E5CF-40EC-480E-B1AB-F7220AC662E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E68E5CF-40EC-480E-B1AB-F7220AC662E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E68E5CF-40EC-480E-B1AB-F7220AC662E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4489C4-0C10-405A-8A04-164A6AD2E572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4489C4-0C10-405A-8A04-164A6AD2E572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4489C4-0C10-405A-8A04-164A6AD2E572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4489C4-0C10-405A-8A04-164A6AD2E572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD9DFCC-01BA-4D75-B69A-477B2F5097E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD9DFCC-01BA-4D75-B69A-477B2F5097E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD9DFCC-01BA-4D75-B69A-477B2F5097E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD9DFCC-01BA-4D75-B69A-477B2F5097E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

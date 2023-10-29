@@ -127,7 +127,29 @@ var produtosEstoqueMinimo = listaProdutos
 Console.WriteLine($"{produtosEstoqueMinimo}");
 
 
+Console.WriteLine("## LINQ - Filtrar dados ## \n");
 
+var numeros = FonteDeDados.GetNumeros();
+
+/* Verificando se existe numeros de uma lista em outra */
+var resultado10 = numeros.Where(a => !FonteDeDados.GetListaNegra().Contains(a));
+Console.WriteLine(string.Join(",", resultado10));
+
+var resultado11 = numeros
+                .Where(numero => numero > 1)
+                .Where(numero => numero != 4)
+                .Where(numero => numero > 20);
+
+Console.WriteLine("\n" + string.Join(",", resultado11));
+
+
+var alunos = FonteDeDados.GetAlunos();
+
+/* Trabalhar com objetos complexos */
+var resultado2 = alunos.Where(aluno => aluno.Nome.StartsWith('A') && aluno.Idade < 18);
+
+foreach (var result in resultado2)
+    Console.WriteLine(result.Nome);
 
 
 Console.ReadKey();
