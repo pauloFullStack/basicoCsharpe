@@ -211,11 +211,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamsAssincronos", "Strea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlandoThreadsComSemaforos", "ControlandoThreadsComSemaforos\ControlandoThreadsComSemaforos.csproj", "{0E68E5CF-40EC-480E-B1AB-F7220AC662E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQMetodos", "LINQMetodos\LINQMetodos.csproj", "{9E4489C4-0C10-405A-8A04-164A6AD2E572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQMetodos", "LINQMetodos\LINQMetodos.csproj", "{9E4489C4-0C10-405A-8A04-164A6AD2E572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQOperadoresDeProjecao", "LINQOperadoresDeProjecao\LINQOperadoresDeProjecao.csproj", "{5DD9DFCC-01BA-4D75-B69A-477B2F5097E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQOperadoresDeProjecao", "LINQOperadoresDeProjecao\LINQOperadoresDeProjecao.csproj", "{5DD9DFCC-01BA-4D75-B69A-477B2F5097E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQOperacoesComConjuntos1", "LINQOperacoesComConjuntos1\LINQOperacoesComConjuntos1.csproj", "{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQOperacoesComConjuntos1", "LINQOperacoesComConjuntos1\LINQOperacoesComConjuntos1.csproj", "{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQOperadoresDeOrdenacao", "LINQOperadoresDeOrdenacao\LINQOperadoresDeOrdenacao.csproj", "{30D5C64F-C382-4E09-BAE0-2BEB959745BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -651,6 +653,10 @@ Global
 		{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D5C64F-C382-4E09-BAE0-2BEB959745BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D5C64F-C382-4E09-BAE0-2BEB959745BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D5C64F-C382-4E09-BAE0-2BEB959745BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D5C64F-C382-4E09-BAE0-2BEB959745BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
