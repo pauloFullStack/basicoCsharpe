@@ -217,7 +217,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQOperadoresDeProjecao", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQOperacoesComConjuntos1", "LINQOperacoesComConjuntos1\LINQOperacoesComConjuntos1.csproj", "{3ECCFD28-CC3D-4915-8983-FFEE43A7C91C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQOperadoresDeOrdenacao", "LINQOperadoresDeOrdenacao\LINQOperadoresDeOrdenacao.csproj", "{30D5C64F-C382-4E09-BAE0-2BEB959745BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQOperadoresDeOrdenacao", "LINQOperadoresDeOrdenacao\LINQOperadoresDeOrdenacao.csproj", "{30D5C64F-C382-4E09-BAE0-2BEB959745BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQOperadoresDeAgregacao1", "LINQOperadoresDeAgregacao1\LINQOperadoresDeAgregacao1.csproj", "{897011C6-A05C-40DE-A08D-96B5D5C10B23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQOperadoresDeQuantificacao", "LINQOperadoresDeQuantificacao\LINQOperadoresDeQuantificacao.csproj", "{804AE796-A369-4155-9037-FF2023558CD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -657,6 +661,14 @@ Global
 		{30D5C64F-C382-4E09-BAE0-2BEB959745BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D5C64F-C382-4E09-BAE0-2BEB959745BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D5C64F-C382-4E09-BAE0-2BEB959745BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897011C6-A05C-40DE-A08D-96B5D5C10B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897011C6-A05C-40DE-A08D-96B5D5C10B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897011C6-A05C-40DE-A08D-96B5D5C10B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897011C6-A05C-40DE-A08D-96B5D5C10B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804AE796-A369-4155-9037-FF2023558CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804AE796-A369-4155-9037-FF2023558CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804AE796-A369-4155-9037-FF2023558CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804AE796-A369-4155-9037-FF2023558CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
