@@ -1,4 +1,4 @@
-﻿/* Argumentos nomeados você pode, enviar os argumentos em qualquer */
+﻿/* Argumentos nomeados você pode, enviar os argumentos em qualquer posição */
 Console.WriteLine("## Argumentos nomeados ##");
 
 Email email = new Email();
